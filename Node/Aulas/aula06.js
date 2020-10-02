@@ -1,7 +1,8 @@
 // criar um array com 12 numeros representando resultado mensal
 // mapear o array usando for
 // somar todos os numeros desse array
-function Somar() {
+
+function SomarSalarios() {
     let salarios = [600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600]
     let resultadoSalarios = 0
 
@@ -11,12 +12,5 @@ function Somar() {
 
     return resultadoSalarios
 }
-// criar variavel para guardar o salario e subtrair 7.5% e retornar o saldo final
 
-function CalculaImpostoDeRenda() {
-    
-}
-
-
-//Somar()
-CalculaImpostoDeRenda()
+module.exports = SomarSalarios
