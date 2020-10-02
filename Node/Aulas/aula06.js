@@ -7,15 +7,16 @@ function Somar() {
 
     for (let i = 0; i < salarios.length; i++) {
         resultadoSalarios += salarios[i]
-    }  
-    console.log(resultadoSalarios)
+    }
+
+    return resultadoSalarios
 }
+// criar variavel para guardar o salario e subtrair 7.5% e retornar o saldo final
 
-
-// criar a funcao subtrair com base na somar
-function Subtrair() {
+function CalculaImpostoDeRenda() {
     
 }
 
 
-Somar()
+//Somar()
+CalculaImpostoDeRenda()
